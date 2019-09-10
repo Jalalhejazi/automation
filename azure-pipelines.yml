@@ -48,7 +48,7 @@ stages:
 
     - script: |
         npm install
-        npm run build-kursusApp
+        npm run build
       displayName: 'npm install, build whatever we need'
 
     - task: CopyFiles@2
