@@ -7,9 +7,7 @@ trigger:
 - master
 
 variables:
-
-  # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  vmImageName: 'windows-2019'
   resourceGroupName: 'superusers-kursus-angular-2020-devops'
   subscription : 'MSDN_950_kr'
   webappname : 'superusers-kursus-angular-2020'
