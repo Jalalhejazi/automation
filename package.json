@@ -1,6 +1,6 @@
 {
   "name": "superusers-kursus-angular-2020",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "poc",
   "private": true,
   "main": "./bin/www",
@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "build": "cd ./angular-apps/kursusApp/ && npm run build",
-    "dev":"npm run build && npm run start",
+    "dev": "npm run build && npm run start",
     "version-fix": "npm version patch",
     "version-feature": "npm version minor",
     "version-broken": "npm version major",
