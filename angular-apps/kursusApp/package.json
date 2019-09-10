@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "prebuild": "npm install",
-    "build": "ng build --optimization --prod --delete-output-path --output-path ../../public/kursusApp --base-href kursusApp"
+    "build-poc": "ng build --optimization --prod --delete-output-path --output-path ../../public/kursusApp --base-href kursusApp",
+    "build": "ng build --prod --output-path ../../public/kursusApp --base-href kursusApp"
   },
   "private": true,
   "dependencies": {
