@@ -1,6 +1,6 @@
 {
   "name": "superusers-kursus-angular-2020",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "poc",
   "private": true,
   "main": "./bin/www",
