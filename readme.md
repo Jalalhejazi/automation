@@ -1,14 +1,9 @@
-## SU0096 (REST API Kursus)
+## superusers-kursus-angular-2020
 
-* danmark-weather-api
-
-
-## Build Status
-
-[![Build Status](https://dev.azure.com/superusers-kursus/nodejs/_apis/build/status/danmark-weather-api.CI?branchName=master)](https://dev.azure.com/superusers-kursus/nodejs/_build/latest?definitionId=43&branchName=master)
+* Using DevOps automation 
 
 
-## Release
+## on DevOps Success Release, expect ...
 
-- [Azure AppService Hosting](https://superusers-api-service-2020.azurewebsites.net)
+- [Azure AppService Hosting](https://superusers-kursus-angular-2020.azurewebsites.net)
 
