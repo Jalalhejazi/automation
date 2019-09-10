@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "webAppName": {
-        "value": "superusers-api-service-2020"
+        "value": "superusers-kursus-angular-2020"
       },
       "hostingPlanName": {
-        "value": "superusers-api-service-2020-hardware"
+        "value": "superusers-kursus-angular-2020-hardware"
       },
       "sku": {
         "value": "S1"
