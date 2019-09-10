@@ -10,9 +10,9 @@ variables:
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
-  resourceGroupName: 'superusers-api-service-2020'
+  resourceGroupName: 'superusers-kursus-angular-2020-devops'
   subscription : 'MSDN_950_kr'
-  webappname : 'superusers-api-service-2020'
+  webappname : 'superusers-kursus-angular-2020'
 
 stages:
 - stage: Build
