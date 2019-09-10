@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node ./bin/www",
-    "build-kursusApp":"cd ./angular-apps/kursusApp/ && npm run build",
+    "build-kursusApp": "cd ./angular-apps/kursusApp/ && npm run build",
     "version-production": "npm view ./package.json version",
     "version-fix": "npm version patch",
     "version-feature": "npm version minor",
