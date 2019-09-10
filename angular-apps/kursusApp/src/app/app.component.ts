@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   template: `
     <section style="text-align:center" class="content">
       <h1>
-        Temperature in Denmark (Odense) is: {{data}}
+        The Temperature in Denmark (Odense) is: {{data}}
       </h1>
 
       <span style="display: block">{{ title }} app is running!</span>
