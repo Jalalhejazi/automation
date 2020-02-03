@@ -8,7 +8,7 @@
     "node": ">=10.10.0"
   },
   "scripts": {
-    "start": "nodemon ./bin/www",
+    "start": "node ./bin/www",
     "build": "cd ./angular-apps/kursusApp/ && npm run build",
     "dev": "npm run build && npm run start",
     "version-fix": "npm version patch",
@@ -24,16 +24,14 @@
     "cors": "^2.8.5",
     "debug": "~2.6.9",
     "express": "~4.16.1",
-    "hbs": "~4.0.4",
+    "hbs": "^4.1.0",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "node-fetch": "^2.6.0",
-    "nodemon": "1.19.1",
     "swagger-jsdoc": "^3.4.0",
     "swagger-ui-express": "^4.1.0"
   },
   "devDependencies": {
-    "nodemon": "^1.19.2",
     "yaml-lint": "^1.2.4"
   },
   "author": "Jalal Hejazi <jalal.hejazi@gmail.com>",
