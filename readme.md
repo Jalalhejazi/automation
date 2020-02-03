@@ -8,3 +8,11 @@
 
 - [Azure WebApp Hosting](https://superusers-kursus-angular-2020.azurewebsites.net)
 
+
+## REST API (Http and PowerShell)
+
+```powershell
+$url = "https://superusers-kursus-angular-2020.azurewebsites.net/api/v1/kursus"
+
+(http get "$url/?dato=202002" | ConvertFrom-Json ).KalenderList
+```
