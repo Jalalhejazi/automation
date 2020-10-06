@@ -17,7 +17,8 @@
     "version-git": "npm version from-git --allow-same-version",
     "validation": "yamllint ./azure-pipelines.yml",
     "predeploy": "npm run validation && npm run build",
-    "deploy": "powershell -NoProfile -ExecutionPolicy Unrestricted -Command  ./deploy.ps1 fix"
+    "deploy": "powershell -NoProfile -ExecutionPolicy Unrestricted -Command  ./deploy.ps1 fix",
+    "deploy-broken": "powershell -NoProfile -ExecutionPolicy Unrestricted -Command  ./deploy.ps1 broken"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
