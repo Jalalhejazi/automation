@@ -15,9 +15,9 @@ git add .
 git commit -m "$version $anyMessage"
 
 switch ($version) {
-    "broken"  { npm version major }
-    "feature" { npm version minor }
-    Default   { npm version patch }
+    "broken"  { npm version major }  
+    "feature" { npm version minor }  
+    Default   { npm version patch } 
 }
 
 git push origin master --force --follow-tags --quiet
