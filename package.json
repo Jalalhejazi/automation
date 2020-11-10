@@ -9,9 +9,16 @@
   },
   "scripts": {
     "start": "node ./bin/www",
-    "prebuild": "npm install --production",
-    "build": "ng build --prod --output-path ../../public/kursusApp --base-href kursusApp",
-    "dev": "npm run build && npm run start"   
+    "build": "cd ./angular-apps/kursusApp/ && npm run build",
+    "dev": "npm run build && npm run start",
+    "version-fix": "npm version patch",
+    "version-feature": "npm version minor",
+    "version-broken": "npm version major",
+    "version-git": "npm version from-git --allow-same-version",
+    "validation": "yamllint ./azure-pipelines.yml",
+    "predeploy": "npm run validation && npm run build",
+    "deploy": "powershell -NoProfile -ExecutionPolicy Unrestricted -Command  ./deploy.ps1 fix",
+    "deploy-broken": "powershell -NoProfile -ExecutionPolicy Unrestricted -Command  ./deploy.ps1 broken"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",

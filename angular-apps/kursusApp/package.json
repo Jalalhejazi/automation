@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "build": "ng build --prod",
-    "start": "ng serve --port 1234 --open"
+    "prebuild": "npm install",
+    "build": "ng build --delete-output-path --output-path ../../public/kursusApp --base-href kursusApp"
   },
   "private": true,
   "dependencies": {
