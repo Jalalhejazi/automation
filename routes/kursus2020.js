@@ -15,7 +15,7 @@ const kursus = require('../lib/kursus')
  *         description: kursus
  */
 router.get('/', (req, res, next) => {
-  const dato = req.query.dato
+  const dato = req.query.dato || 2020
   kursus.getKursusFromJSON(dato, data => res.json(data))
 });
 
