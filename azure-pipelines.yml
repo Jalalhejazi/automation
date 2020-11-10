@@ -27,7 +27,7 @@ stages:
       inputs:
         azureSubscription: $(subscription)
         scriptLocation: inlineScript
-        inlineScript: 'az group create --location northeurope --name $(resourceGroupName)'
+        inlineScript: 'az group create --location westeurope --name $(resourceGroupName)'
 
     
     - task: AzureResourceGroupDeployment@2
@@ -35,7 +35,7 @@ stages:
       inputs:
         azureSubscription: $(subscription)
         resourceGroupName: '$(resourceGroupName)'
-        location: 'North Europe'
+        location: 'West Europe'
         templateLocation: 'Linked artifact'
         csmFile: 'iac/webapp.json'
         csmParametersFile: 'iac/webapp.parameters.json'
