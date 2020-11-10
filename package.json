@@ -9,9 +9,9 @@
   },
   "scripts": {
     "start": "node ./bin/www",
-    "build": "cd ./angular-apps/kursusApp/ && npm run build",
-    "dev": "npm run build && npm run start"
-   
+    "prebuild": "npm install --production",
+    "build": "ng build --prod --output-path ../../public/kursusApp --base-href kursusApp",
+    "dev": "npm run build && npm run start"   
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
