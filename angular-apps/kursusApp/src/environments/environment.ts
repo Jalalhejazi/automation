@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  api: {
+    courses     : 'https://superusers-kursus-angular-2020.azurewebsites.net/api/v2/kursus',
+    courseInfo  : 'https://service.superusers.dk/DataService/Kursus/Oversigt'
+  }
 };
 
 /*

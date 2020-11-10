@@ -11,6 +11,7 @@ const swaggerUi = require('swagger-ui-express')
 const indexRouter = require('./routes/index')
 const weatherRouter = require('./routes/weather')
 const kursusRouter = require('./routes/kursus')
+const kursus2020 = require('./routes/kursus2020')
 
 const app = express()
 
@@ -28,6 +29,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.use('/', indexRouter)
 app.use('/api/v1/weather', weatherRouter)
 app.use('/api/v1/kursus', kursusRouter)
+app.use('/api/v2/kursus', kursus2020)
 
 const options = {
   swaggerDefinition: {
