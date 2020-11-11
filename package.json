@@ -8,6 +8,7 @@
     "node": ">=10.10.0"
   },
   "scripts": {
+    "setup": "npm install --silent && cd ./angular-apps/kursusApp/ && npm install --silent",
     "start": "node ./bin/www",
     "build": "cd ./angular-apps/kursusApp/ && npm run build",
     "dev": "npm run build && npm run start",

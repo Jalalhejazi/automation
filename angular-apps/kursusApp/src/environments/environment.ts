@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   api: {
-    courses     : 'https://superusers-kursus-angular-2020.azurewebsites.net/api/v2/kursus',
+    courses     : 'https://superusers-kursus-angular-2020.azurewebsites.net/api/v1/kursus',
     courseInfo  : 'https://service.superusers.dk/DataService/Kursus/Oversigt'
   }
 };
