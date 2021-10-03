@@ -9,7 +9,7 @@ trigger:
 variables:
   vmImageName: 'windows-2019'
   resourceGroupName: 'superusers-kursus-angular-2020-devops'
-  subscription : 'msdn'
+  subscription : 'MSDN_950_kr'
   webappname : 'superusers-kursus-angular-2020'
 
 stages:
