@@ -1,9 +1,9 @@
+# DevOps | Angular | API | Azure 
 
-## superusers-kursus-angular-2021
-
-- Using DevOps automation 
-
-- [![Build Status](https://dev.azure.com/superusers-kursus/angular/_apis/build/status/angular-2020?branchName=master)](https://dev.azure.com/superusers-kursus/angular/_build/latest?definitionId=81&branchName=master)
+- Using DevOps automation for CI/CD
+- Using Angular for FrontEnd
+- Using Nodejs for Backend
+- SQLServer as Backend Database (data Warehouse)
 
 ## on DevOps Success
 
