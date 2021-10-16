@@ -1,9 +1,11 @@
 # DevOps | Angular | API | Azure 
 
-- Using DevOps automation for CI/CD
+- Using DevOps automation
+  - ARM Template for IaaC 
+  - YAML pipeline for CI/CD 
 - Using Angular for FrontEnd
 - Using Nodejs for Backend
-- SQLServer as Backend Database (data Warehouse)
+- SQLServer as Backend Database (data Warehouse optimized for Web)
 
 ## on DevOps Success
 
