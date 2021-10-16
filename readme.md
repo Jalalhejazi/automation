@@ -1,6 +1,5 @@
-# 2020
 
-## superusers-kursus-angular-2020
+## superusers-kursus-angular-2021
 
 - Using DevOps automation 
 
@@ -16,5 +15,6 @@
 ```powershell
 $url = "https://superusers-kursus-angular-2020.azurewebsites.net/api/v1/kursus"
 
+# pip install httpie
 (http get "$url/?dato=202002" | ConvertFrom-Json ).KalenderList
 ```
