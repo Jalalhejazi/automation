@@ -9,7 +9,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"page-section\" id=\"services\">\r\n    <div class=\"container\">\r\n        <h2 class=\"text-center mt-0 fas fa-4x fa-users text-primary mb-4\">Members</h2>\r\n        <hr class=\"divider my-4\">\r\n        \r\n        <div class=\"row\">\r\n                <div class=\"col-lg-3 col-md-6 text-primary\">\r\n                    <div class=\"mt-5\">\r\n                        <i class=\"fas fa-4x fa-info text-primary mb-4\"></i>\r\n                        \r\n                        <pre class=\"text-muted mb-0\">{{data|json}} </pre>\r\n                    </div>\r\n                </div>\r\n        </div>\r\n    </div>\r\n</section>");
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"page-section\" id=\"services\">\n    <div class=\"container\">\n        <h2 class=\"text-center mt-0 fas fa-4x fa-users text-primary mb-4\">Members</h2>\n        <hr class=\"divider my-4\">\n        \n        <div class=\"row\">\n                <div class=\"col-lg-3 col-md-6 text-primary\">\n                    <div class=\"mt-5\">\n                        <i class=\"fas fa-4x fa-info text-primary mb-4\"></i>\n                        \n                        <pre class=\"text-muted mb-0\">{{data|json}} </pre>\n                    </div>\n                </div>\n        </div>\n    </div>\n</section>");
 
 /***/ }),
 

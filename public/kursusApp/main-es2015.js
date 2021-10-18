@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\r\n\r\n    <app-head></app-head>\r\n    <router-outlet></router-outlet>\r\n\r\n<app-footer ></app-footer>");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navigation></app-navigation>\n\n    <app-head></app-head>\n    <router-outlet></router-outlet>\n\n<app-footer ></app-footer>");
 
 /***/ }),
 
@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"page-section\" id=\"contact\">\r\n    <div class=\"container\">\r\n        <div class=\"row justify-content-center\">\r\n        <div class=\"col-lg-8 text-center\">\r\n            <h2 class=\"mt-0\">Let's Get In Touch!</h2>\r\n            <hr class=\"divider my-4\">\r\n            <p class=\"text-muted mb-5\">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>\r\n        </div>\r\n        </div>\r\n        <div class=\"row\">\r\n        <div class=\"col-lg-4 ml-auto text-center mb-5 mb-lg-0\">\r\n            <i class=\"fas fa-phone fa-3x mb-3 text-muted\"></i>\r\n            <div><pre>{{data|json}}</pre></div>\r\n        </div>\r\n        <div class=\"col-lg-4 mr-auto text-center\">\r\n            <i class=\"fas fa-envelope fa-3x mb-3 text-muted\"></i>\r\n            <a class=\"d-block\" href=\"mailto:super@superusers.dk\">super@superusers.dk</a>\r\n        </div>\r\n        </div>\r\n    </div>\r\n</section>");
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"page-section\" id=\"contact\">\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n        <div class=\"col-lg-8 text-center\">\n            <h2 class=\"mt-0\">Let's Get In Touch!</h2>\n            <hr class=\"divider my-4\">\n            <p class=\"text-muted mb-5\">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>\n        </div>\n        </div>\n        <div class=\"row\">\n        <div class=\"col-lg-4 ml-auto text-center mb-5 mb-lg-0\">\n            <i class=\"fas fa-phone fa-3x mb-3 text-muted\"></i>\n            <div><pre>{{data|json}}</pre></div>\n        </div>\n        <div class=\"col-lg-4 mr-auto text-center\">\n            <i class=\"fas fa-envelope fa-3x mb-3 text-muted\"></i>\n            <a class=\"d-block\" href=\"mailto:super@superusers.dk\">super@superusers.dk</a>\n        </div>\n        </div>\n    </div>\n</section>");
 
 /***/ }),
 
@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"page-section bg-primary\">\r\n   \r\n   <app-product [date]=\"yyyyMM\"></app-product>\r\n\r\n</section>\r\n    ");
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"page-section bg-primary\">\n   \n   <app-product [date]=\"yyyyMM\"></app-product>\n\n</section>\n    ");
 
 /***/ }),
 
@@ -71,7 +71,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"page-section bg-dark text-white\">\r\n    <div class=\"container text-center\">\r\n        <h2 class=\"mb-4\">Free Download at Start Bootstrap!</h2>\r\n        <a class=\"btn btn-light btn-xl\" href=\"https://startbootstrap.com/themes/creative/\">Download Now!</a>\r\n    </div>\r\n</section>");
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"page-section bg-dark text-white\">\n    <div class=\"container text-center\">\n        <h2 class=\"mb-4\">Free Download at Start Bootstrap!</h2>\n        <a class=\"btn btn-light btn-xl\" href=\"https://startbootstrap.com/themes/creative/\">Download Now!</a>\n    </div>\n</section>");
 
 /***/ }),
 
@@ -84,7 +84,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"bg-light py-5\">\r\n    <div class=\"container\">\r\n        <div class=\"small text-center text-muted\"> {{title}} 2020  </div>\r\n    </div>\r\n</footer>\r\n    ");
+/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"bg-light py-5\">\n    <div class=\"container\">\n        <div class=\"small text-center text-muted\"> {{title}} 2020  </div>\n    </div>\n</footer>\n    ");
 
 /***/ }),
 
@@ -97,7 +97,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<header class=\"masthead\">\r\n    <div class=\"container h-100\">\r\n        <div class=\"row h-100 align-items-center justify-content-center text-center\">\r\n        <div class=\"col-lg-10 align-self-end\">\r\n            <h1 class=\"text-uppercase text-white font-weight-bold\"> {{title}} </h1>\r\n            <hr class=\"divider my-4\">\r\n        </div>\r\n        <div class=\"col-lg-8 align-self-baseline\">\r\n            <p class=\"text-white-75 font-weight-light mb-5\"> {{description}} </p>\r\n            <a class=\"btn btn-primary btn-xl js-scroll-trigger\" [routerLink]=\"Month\"> {{Month}} </a>\r\n        </div>\r\n        </div>\r\n    </div>\r\n</header>");
+/* harmony default export */ __webpack_exports__["default"] = ("<header class=\"masthead\">\n    <div class=\"container h-100\">\n        <div class=\"row h-100 align-items-center justify-content-center text-center\">\n        <div class=\"col-lg-10 align-self-end\">\n            <h1 class=\"text-uppercase text-white font-weight-bold\"> {{title}} </h1>\n            <hr class=\"divider my-4\">\n        </div>\n        <div class=\"col-lg-8 align-self-baseline\">\n            <p class=\"text-white-75 font-weight-light mb-5\"> {{description}} </p>\n            <a class=\"btn btn-primary btn-xl js-scroll-trigger\" [routerLink]=\"Month\"> {{Month}} </a>\n        </div>\n        </div>\n    </div>\n</header>");
 
 /***/ }),
 
@@ -110,7 +110,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar navbar-expand-lg navbar-light fixed-top py-3\" id=\"mainNav\">\r\n    <div class=\"container\">\r\n        <a class=\"navbar-brand js-scroll-trigger\" [routerLink]=\"Month\" routerLinkActive=\"active\"> {{title}} {{CurrentYear}} - POC </a>\r\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n        <span class=\"navbar-toggler-icon\"></span>\r\n        </button>\r\n        <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\r\n        <ul class=\"navbar-nav ml-auto my-2 my-lg-0\">\r\n            \r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link js-scroll-trigger\" [routerLink]=\"Month\" routerLinkActive=\"active\">{{Month}} </a>\r\n            </li>\r\n\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link js-scroll-trigger\" [routerLink]=\"Month_plus_1\" routerLinkActive=\"active\">{{Month_plus_1}}</a>\r\n            </li>\r\n\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link js-scroll-trigger\" [routerLink]=\"Month_plus_2\" routerLinkActive=\"active\">{{Month_plus_2}}</a>\r\n            </li>\r\n\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link js-scroll-trigger\" [routerLink]=\"CurrentYear\" routerLinkActive=\"active\">{{CurrentYear}}</a>\r\n            </li>\r\n\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link js-scroll-trigger\" routerLink=\"/service\" routerLinkActive=\"active\">Service</a>\r\n            </li>\r\n\r\n            <li class=\"nav-item\">\r\n                <a class=\"nav-link js-scroll-trigger\" routerLink=\"/contact\" routerLinkActive=\"active\">Contact</a>\r\n            </li>\r\n        </ul>\r\n        </div>\r\n    </div>\r\n</nav>   ");
+/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar navbar-expand-lg navbar-light fixed-top py-3\" id=\"mainNav\">\n    <div class=\"container\">\n        <a class=\"navbar-brand js-scroll-trigger\" [routerLink]=\"Month\" routerLinkActive=\"active\"> {{title}} {{CurrentYear}} - POC </a>\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n        <ul class=\"navbar-nav ml-auto my-2 my-lg-0\">\n            \n            <li class=\"nav-item\">\n                <a class=\"nav-link js-scroll-trigger\" [routerLink]=\"Month\" routerLinkActive=\"active\">{{Month}} </a>\n            </li>\n\n            <li class=\"nav-item\">\n                <a class=\"nav-link js-scroll-trigger\" [routerLink]=\"Month_plus_1\" routerLinkActive=\"active\">{{Month_plus_1}}</a>\n            </li>\n\n            <li class=\"nav-item\">\n                <a class=\"nav-link js-scroll-trigger\" [routerLink]=\"Month_plus_2\" routerLinkActive=\"active\">{{Month_plus_2}}</a>\n            </li>\n\n            <li class=\"nav-item\">\n                <a class=\"nav-link js-scroll-trigger\" [routerLink]=\"CurrentYear\" routerLinkActive=\"active\">{{CurrentYear}}</a>\n            </li>\n\n            <li class=\"nav-item\">\n                <a class=\"nav-link js-scroll-trigger\" routerLink=\"/service\" routerLinkActive=\"active\">Service</a>\n            </li>\n\n            <li class=\"nav-item\">\n                <a class=\"nav-link js-scroll-trigger\" routerLink=\"/contact\" routerLinkActive=\"active\">Contact</a>\n            </li>\n        </ul>\n        </div>\n    </div>\n</nav>   ");
 
 /***/ }),
 
@@ -123,7 +123,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"page-section bg-dark text-white\" *ngIf=\"kursus\">\r\n    <div class=\"container text-left\">\r\n        <h2 class=\"mb-4\">  \r\n            <a class=\"btn btn-light btn-xl\" href=\"https://www.superusers.dk/kursus/{{kursus.kursusNummer}}\" target=\"_new\">{{kursus.kursusNummer}}</a>  \r\n        </h2>\r\n        \r\n        <h1 class=\"mb-4\" *ngIf=\"kursus.kursusTitel\"> {{kursus.kursusTitel}}  </h1>\r\n\r\n        <p class=\"badge badge-info\"  *ngIf=\"kursus.producent\">   {{kursus.producent}}    </p>\r\n        <p class=\"badge badge-success\"  *ngIf=\"kursus.kategori\">    {{kursus.kategori}}     </p>\r\n        <p class=\"badge badge-primary\"     *ngIf=\"kursus.role\">        {{kursus.role}}         </p>    \r\n        <h3 *ngIf=\"kursus.kortBeskrivelse\">\r\n            {{kursus.kortBeskrivelse}}\r\n        </h3>\r\n    </div>\r\n</section>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"page-section bg-dark text-white\" *ngIf=\"kursus\">\n    <div class=\"container text-left\">\n        <h2 class=\"mb-4\">  \n            <a class=\"btn btn-light btn-xl\" href=\"https://www.superusers.dk/kursus/{{kursus.kursusNummer}}\" target=\"_new\">{{kursus.kursusNummer}}</a>  \n        </h2>\n        \n        <h1 class=\"mb-4\" *ngIf=\"kursus.kursusTitel\"> {{kursus.kursusTitel}}  </h1>\n\n        <p class=\"badge badge-info\"  *ngIf=\"kursus.producent\">   {{kursus.producent}}    </p>\n        <p class=\"badge badge-success\"  *ngIf=\"kursus.kategori\">    {{kursus.kategori}}     </p>\n        <p class=\"badge badge-primary\"     *ngIf=\"kursus.role\">        {{kursus.role}}         </p>    \n        <h3 *ngIf=\"kursus.kortBeskrivelse\">\n            {{kursus.kortBeskrivelse}}\n        </h3>\n    </div>\n</section>\n");
 
 /***/ }),
 
@@ -136,7 +136,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div id=\"product\" class=\"card\" *ngFor=\"let k of data\">\r\n    <div class=\"card-body\">\r\n      <h5 class=\"card-title\">{{k.kursus_titel}} </h5>\r\n      <p class=\"card-text\"> {{k.kursus_dato | dateAsISO}}  </p>\r\n      <p class=\"card-text\"> <span class=\"badge badge-success\">{{k.kursus_sted}} - {{k.kursus_lokale}} </span>  </p>\r\n      \r\n      <p class=\"card-text\">    \r\n        <a class=\"btn btn-info \"  routerLink=\"/kursus/{{k.kursus_nummer}}\"> About this training {{k.kursus_nummer}}  </a>\r\n      </p>\r\n\r\n      <p class=\"card-text text-primary \" >    \r\n        <button class=\"btn btn-danger\" (click)=\"moreInfo(k)\"> Members  </button>\r\n      </p>\r\n      \r\n    </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div id=\"product\" class=\"card\" *ngFor=\"let k of data\">\n    <div class=\"card-body\">\n      <h5 class=\"card-title\">{{k.kursus_titel}} </h5>\n      <p class=\"card-text\"> {{k.kursus_dato | dateAsISO}}  </p>\n      <p class=\"card-text\"> <span class=\"badge badge-success\">{{k.kursus_sted}} - {{k.kursus_lokale}} </span>  </p>\n      \n      <p class=\"card-text\">    \n        <a class=\"btn btn-info \"  routerLink=\"/kursus/{{k.kursus_nummer}}\"> About this training {{k.kursus_nummer}}  </a>\n      </p>\n\n      <p class=\"card-text text-primary \" >    \n        <button class=\"btn btn-danger\" (click)=\"moreInfo(k)\"> Members  </button>\n      </p>\n      \n    </div>\n</div>\n");
 
 /***/ }),
 
@@ -149,7 +149,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"page-section\" id=\"services\">\r\n    <div class=\"container\">\r\n        <h2 class=\"text-center mt-0\">At Your Service</h2>\r\n        <hr class=\"divider my-4\">\r\n        <div class=\"row\">\r\n        <div class=\"col-lg-3 col-md-6 text-center\">\r\n            <div class=\"mt-5\">\r\n            <i class=\"fas fa-4x fa-gem text-primary mb-4\"></i>\r\n            <h3 class=\"h4 mb-2\">Sturdy Themes</h3>\r\n            <p class=\"text-muted mb-0\">Our themes are updated regularly to keep them bug free!</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"col-lg-3 col-md-6 text-center\">\r\n            <div class=\"mt-5\">\r\n            <i class=\"fas fa-4x fa-laptop-code text-primary mb-4\"></i>\r\n            <h3 class=\"h4 mb-2\">Up to Date</h3>\r\n            <p class=\"text-muted mb-0\">All dependencies are kept current to keep things fresh.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"col-lg-3 col-md-6 text-center\">\r\n            <div class=\"mt-5\">\r\n            <i class=\"fas fa-4x fa-globe text-primary mb-4\"></i>\r\n            <h3 class=\"h4 mb-2\">Ready to Publish</h3>\r\n            <p class=\"text-muted mb-0\">You can use this design as is, or you can make changes!</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"col-lg-3 col-md-6 text-center\">\r\n            <div class=\"mt-5\">\r\n            <i class=\"fas fa-4x fa-heart text-primary mb-4\"></i>\r\n            <h3 class=\"h4 mb-2\">Made with Love</h3>\r\n            <p class=\"text-muted mb-0\">Is it really open source if it's not made with love?</p>\r\n            </div>\r\n        </div>\r\n        </div>\r\n    </div>\r\n</section>");
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"page-section\" id=\"services\">\n    <div class=\"container\">\n        <h2 class=\"text-center mt-0\">At Your Service</h2>\n        <hr class=\"divider my-4\">\n        <div class=\"row\">\n        <div class=\"col-lg-3 col-md-6 text-center\">\n            <div class=\"mt-5\">\n            <i class=\"fas fa-4x fa-gem text-primary mb-4\"></i>\n            <h3 class=\"h4 mb-2\">Sturdy Themes</h3>\n            <p class=\"text-muted mb-0\">Our themes are updated regularly to keep them bug free!</p>\n            </div>\n        </div>\n        <div class=\"col-lg-3 col-md-6 text-center\">\n            <div class=\"mt-5\">\n            <i class=\"fas fa-4x fa-laptop-code text-primary mb-4\"></i>\n            <h3 class=\"h4 mb-2\">Up to Date</h3>\n            <p class=\"text-muted mb-0\">All dependencies are kept current to keep things fresh.</p>\n            </div>\n        </div>\n        <div class=\"col-lg-3 col-md-6 text-center\">\n            <div class=\"mt-5\">\n            <i class=\"fas fa-4x fa-globe text-primary mb-4\"></i>\n            <h3 class=\"h4 mb-2\">Ready to Publish</h3>\n            <p class=\"text-muted mb-0\">You can use this design as is, or you can make changes!</p>\n            </div>\n        </div>\n        <div class=\"col-lg-3 col-md-6 text-center\">\n            <div class=\"mt-5\">\n            <i class=\"fas fa-4x fa-heart text-primary mb-4\"></i>\n            <h3 class=\"h4 mb-2\">Made with Love</h3>\n            <p class=\"text-muted mb-0\">Is it really open source if it's not made with love?</p>\n            </div>\n        </div>\n        </div>\n    </div>\n</section>");
 
 /***/ }),
 
@@ -162,7 +162,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"page-section bg-light \">\r\n    <div class=\"container text-left\">\r\n        \r\n        <ag-grid-angular\r\n            style=\"width: 100%; height: 500px;\"\r\n            class=\"ag-theme-balham\"\r\n            [rowData]=\"rowData\"\r\n            [columnDefs]=\"columnDefs\"\r\n        >\r\n        </ag-grid-angular>\r\n    </div>\r\n</section>");
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"page-section bg-light \">\n    <div class=\"container text-left\">\n        \n        <ag-grid-angular\n            style=\"width: 100%; height: 500px;\"\n            class=\"ag-theme-balham\"\n            [rowData]=\"rowData\"\n            [columnDefs]=\"columnDefs\"\n        >\n        </ag-grid-angular>\n    </div>\n</section>");
 
 /***/ }),
 
@@ -1008,7 +1008,7 @@ DateAsISOPipe = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".badge {\r\n    margin-right: 2em;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZHVjdC1pbmZvL3Byb2R1Y3QtaW5mby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksaUJBQWlCO0FBQ3JCIiwiZmlsZSI6InNyYy9hcHAvcHJvZHVjdC1pbmZvL3Byb2R1Y3QtaW5mby5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmJhZGdlIHtcclxuICAgIG1hcmdpbi1yaWdodDogMmVtO1xyXG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = (".badge {\n    margin-right: 2em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZHVjdC1pbmZvL3Byb2R1Y3QtaW5mby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksaUJBQWlCO0FBQ3JCIiwiZmlsZSI6InNyYy9hcHAvcHJvZHVjdC1pbmZvL3Byb2R1Y3QtaW5mby5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmJhZGdlIHtcbiAgICBtYXJnaW4tcmlnaHQ6IDJlbTtcbn0iXX0= */");
 
 /***/ }),
 
@@ -1067,7 +1067,7 @@ ProductInfoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("#product{\r\n    margin-left: 10%;\r\n    margin-bottom: 5%;\r\n    display: inline-block;\r\n    width: 80%;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZHVjdC9wcm9kdWN0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxnQkFBZ0I7SUFDaEIsaUJBQWlCO0lBQ2pCLHFCQUFxQjtJQUNyQixVQUFVO0FBQ2QiLCJmaWxlIjoic3JjL2FwcC9wcm9kdWN0L3Byb2R1Y3QuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNwcm9kdWN0e1xyXG4gICAgbWFyZ2luLWxlZnQ6IDEwJTtcclxuICAgIG1hcmdpbi1ib3R0b206IDUlO1xyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgd2lkdGg6IDgwJTtcclxufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = ("#product{\n    margin-left: 10%;\n    margin-bottom: 5%;\n    display: inline-block;\n    width: 80%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZHVjdC9wcm9kdWN0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxnQkFBZ0I7SUFDaEIsaUJBQWlCO0lBQ2pCLHFCQUFxQjtJQUNyQixVQUFVO0FBQ2QiLCJmaWxlIjoic3JjL2FwcC9wcm9kdWN0L3Byb2R1Y3QuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNwcm9kdWN0e1xuICAgIG1hcmdpbi1sZWZ0OiAxMCU7XG4gICAgbWFyZ2luLWJvdHRvbTogNSU7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIHdpZHRoOiA4MCU7XG59Il19 */");
 
 /***/ }),
 
@@ -1305,7 +1305,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\dev\angular-api-server\angular-apps\kursusApp\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/codespace/devops-angular-api/angular-apps/kursusApp/src/main.ts */"./src/main.ts");
 
 
 /***/ })
