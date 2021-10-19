@@ -1,6 +1,4 @@
-## Lab VM automation 
-
-- [readme](Setup/readme.md)
+##  [Lab VM automation](Setup/readme.md)
 
 
 ## Codespaces linux Container automation
